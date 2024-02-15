@@ -1,0 +1,69 @@
+.login {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+.description{
+    margin-right: 30px;
+}
+.login-form {
+  padding: 40px;
+  background-color: #fbf6ee;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px ridge #000000;
+  -webkit-box-shadow: 7px 3px 46px -6px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 7px 3px 46px -6px rgba(0, 0, 0, 0.77);
+  box-shadow: 7px 3px 46px -6px rgba(0, 0, 0, 0.77);
+}
+.input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 8px rgba(66, 66, 66, 0.64);
+}
+.input:focus {
+  outline: none;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 10px;
+}
+.lgn {
+  background-color: #ffb534;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.forgotten-pass{
+    text-decoration: none;
+    color: #000000;
+}
+hr{
+    margin-top: 20px;
+}
+.register{
+    background-color: #65B741;
+}
+@media only screen and (max-width: 950px) {
+    .description{
+        display: none;
+    }
+  }

@@ -1,0 +1,30 @@
+.storie {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  cursor: pointer;
+}
+.storie-name {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.storie-image {
+    border-radius: 10px;
+    border-color: blue;
+  object-fit: cover;
+  width: 150px;
+  height: 200px;
+}
+.add-icon{
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 40px;
+    color: rgb(86, 86, 226);
+}
