@@ -1,7 +1,6 @@
 {
-  "homepage": "https://mehdiergaibi.github.io/social-media-app/social-app",
-  "name": "social-app",
-  "private": true,
+  "homepage": "https://mehdiergaibi.github.io/social-app",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
