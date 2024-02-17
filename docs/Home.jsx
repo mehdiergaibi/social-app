@@ -4,6 +4,7 @@ import Stories from "./HomeCompos/Stories";
 import { IoAddCircle } from "react-icons/io5";
 
 import "./home.css";
+import AddMedia from "./HomeCompos/AddMedia";
 
 let users = [
   {
@@ -71,6 +72,7 @@ function Home() {
           <Stories key={user.name} image={user.image} user_name={user.name} />
         ))}
       </main>
+      <AddMedia />
     </div>
   );
 }

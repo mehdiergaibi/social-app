@@ -1,0 +1,86 @@
+.add-icon-media {
+  color: #ffb534;
+  font-size: 40px;
+  margin-bottom: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.add-media {
+    margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pop-up {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  background-color: #ffb534;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whts-in {
+  padding: 10px;
+  max-width: 90%;
+  min-width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+}
+.whts-in:focus {
+  outline: none;
+}
+.media input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.media label {
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.media {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btns {
+  position: absolute;
+  bottom: 5px;
+  align-self: end;
+}
+.btns button {
+  width: 50px;
+  margin: 5px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+.post-btn {
+  background-color: green;
+}
+.close-btn {
+  background-color: red;
+}
