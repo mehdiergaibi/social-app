@@ -1,0 +1,67 @@
+.profile {
+  border-radius: 50%;
+  width: 50px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.user-name {
+  margin: 10px;
+  font-weight: bold;
+}
+.time {
+  position: absolute;
+  right: 5px;
+  color: gray;
+}
+.all-post {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.post img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+.comments {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.comments input {
+  width: 100%;
+
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.comments input:focus {
+  outline: none;
+}
+.send {
+  cursor: pointer;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.like{
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    color: brown;
+    font-size: 30px;
+}

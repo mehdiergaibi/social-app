@@ -5,6 +5,7 @@ import { IoAddCircle } from "react-icons/io5";
 
 import "./home.css";
 import AddMedia from "./HomeCompos/AddMedia";
+import Post from "./HomeCompos/Post";
 
 let users = [
   {
@@ -44,6 +45,26 @@ let users = [
     image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
+let posts = [
+  {
+    name: "Tonya",
+    post: "https://randomuser.me/api/portraits/women/44.jpg",
+    time: "yesterday",
+    profile: "https://randomuser.me/api/portraits/women/44.jpg",
+  },
+  {
+    name: "Bonnie",
+    post: "https://randomuser.me/api/portraits/women/51.jpg",
+    time: "11 PM",
+    profile: "https://randomuser.me/api/portraits/women/51.jpg",
+  },
+  {
+    name: "Javier",
+    post: "https://randomuser.me/api/portraits/men/50.jpg",
+    time: "just now",
+    profile: "https://randomuser.me/api/portraits/men/50.jpg",
+  },
+];
 
 function Home() {
   window.onload = function () {
@@ -64,7 +85,7 @@ function Home() {
             className="storie-image"
             src="https://randomuser.me/api/portraits/men/62.jpg"
           />
-          
+
           <IoAddCircle className="add-icon" />
           <p className="storie-name">You</p>
         </section>
@@ -73,6 +94,15 @@ function Home() {
         ))}
       </main>
       <AddMedia />
+      {posts.map((post) => (
+        <Post
+          key={post.name}
+          profile={post.profile}
+          post={post.post}
+          time={post.time}
+          uname={post.name}
+        />
+      ))}
     </div>
   );
 }
